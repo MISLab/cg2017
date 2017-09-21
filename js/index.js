@@ -7,7 +7,7 @@ var announcement=[
 var title = [
 	/*{id:"final", mainTitle:"Final Presentation", subTopic:"2016.06.28", img:"./art/final.png"},*/
 	{id:"cg", mainTitle:"Computer Graphics ", subTopic:"2017", img:"./art/title.png"},
-	{id:"hw1", mainTitle:"Homework 1", subTopic:"Game Engine Pipeline Concept", img:"./art/blenderTitle.png", href:"./homework1.html"},
+	{id:"hw1", mainTitle:"Homework 1", subTopic:"Game Engine Pipeline Concept", img:"./art/ffxv.jpg", href:"./homework1.html"},
 ]
 
 var titleCount=title.length;
