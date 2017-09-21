@@ -95,7 +95,7 @@ var Info=React.createClass({
 		for(var a in courseInfo){
 			courseInfoEle.push(React.createElement("div", null, courseInfo[a]));
 		}
-		var announcementEle=[];
+		var announcementEle=["Homework 1 Announced!!  Deadline on 10/2 pm22:00"];
 		for(var a in announcement){
 			announcementEle.push(React.createElement("div", null, announcement[a]));
 		}

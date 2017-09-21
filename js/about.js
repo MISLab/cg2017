@@ -96,7 +96,7 @@ var Support_Lecturers = React.createClass({
 			React.createElement(
 				"div",
 				{className:"title"},
-				"Support Lecturers"
+				"Supporting Lecturers"
 			),
 			React.createElement(
 				Person,
