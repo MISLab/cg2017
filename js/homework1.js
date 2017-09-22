@@ -46,7 +46,7 @@ var Tutorial=React.createClass({
 				React.createElement(
 					"p",
 					null,
-					"In this assignment, you will have to follow the video in the link below. By learning how to use a popular game engine, you have to figure out what is a game engine's pipeline"
+					"In this assignment, you will have to follow the video in the link below. By learning how to use a popular game engine, you have to figure out what is a game development pipeline"
 				)
 			),
 			React.createElement(
@@ -78,7 +78,7 @@ var Tutorial=React.createClass({
 						"br",
 						null
 					),
-					"Include your game engine pipeline concept /(in image formate like png, jpg, ..., or in ppt and pdf/).",
+					"Include your game development pipeline /(in image formate like png, jpg, ..., or in ppt and pdf/).",
 					React.createElement(
 						"br",
 						null
@@ -102,7 +102,7 @@ var Tutorial=React.createClass({
 				React.createElement(
 					"div",
 					{className:"listInfo"},
-					"Game Engine Pipeline Concept(100%)",						
+					"Game Development Pipeline(100%)",						
 					React.createElement(
 						"br",
 						null
