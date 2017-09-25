@@ -49,6 +49,19 @@ var Tutorial=React.createClass({
 					"In this assignment, you will have to follow the video in the link below. By learning how to use a popular game engine, you have to figure out what is a game development pipeline"
 				)
 			),
+            React.createElement(
+				"div",
+				{className:"paragraph clear"},
+				React.createElement(
+					"h2",
+					null,
+					"Download Unreal Props Assets "
+				),
+				React.createElement(
+					File,
+					{filename:"Unreal Assets", img:"./art/UnrealTutorial.png", file:"https://goo.gl/5WPUwo"}
+				)
+			),
 			React.createElement(
 				"div",
 				{className:"paragraph clear"},
