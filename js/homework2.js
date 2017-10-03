@@ -48,7 +48,12 @@ var Tutorial=React.createClass({
 						"br",
 						null
 					),
-					"Shader"
+					"Shader",
+                    React.createElement(
+						"br",
+						null
+					),
+                    "Learning shading algorithms"
 				)
 			),
 			React.createElement(
@@ -69,7 +74,7 @@ var Tutorial=React.createClass({
 						React.createElement(
 							"p",
 							null,
-							"What we have done for you. The Sun and the Earth are at the origin point."
+							"What we have done for you. The Sun and the Earth are at the origin point. The following image is the normal of the meshes"
 						),
 						React.createElement(
 							"div",
@@ -82,11 +87,24 @@ var Tutorial=React.createClass({
 						React.createElement(
 							"p",
 							null,
-							"You need to modify the code so that the Earth can rotate( 自轉 ) and revolve( 公轉 ) around the Sun."
+							"First, you need to modify the code so that the Earth can rotate( 自轉 ), revolve( 公轉 ) around the Sun, and rotation about an arbitrary axis(任意軸旋轉)."
 						),
 						React.createElement(
 							"div",
 							{className:"exImg",style:{"background-image":"url(./art/hw2_pic2.jpg)"}}
+						)
+					),
+                    React.createElement(
+						"div",
+						{className:"paragraph"},
+						React.createElement(
+							"p",
+							null,
+							"Second, you have to implement four kind of shading methods by using shader. These four methods are flat, Gouraud, phong, Blinn–Phong shading. Their example are showed below respectively."
+						),
+						React.createElement(
+							"div",
+							{className:"exImg",style:{"background-image":"url(./art/hw2_pic3.jpg)"}}
 						)
 					)
 				),
@@ -130,15 +148,10 @@ var Tutorial=React.createClass({
 						"br",
 						null
 					),
-					"Include your well-commented source code and a document explains your program",
-					React.createElement(
-						"br",
-						null
-					),
 					React.createElement(
 						"span",
 						{className:"alert"},
-						"Deadline: 2016/4/11 22:00"
+						"Deadline: 2017/10/30 22:00"
 					)
 				)
 
@@ -154,27 +167,21 @@ var Tutorial=React.createClass({
 				React.createElement(
 					"div",
 					{className:"listInfo"},
-					"Rotation(10%)",						
+					"Transformation(30%): Rotation(10%) + Revolution(10%) + Rotation about an arbitrary axis(10%)",
 					React.createElement(
 						"br",
 						null
 					),
-					"Revolution(20%)",
+					"4 kinds of shading at Camera Space(45%): Flat(10%) + Gouraud(10%) + Phong(15%) + Blinn-Phong(10%)",
 					React.createElement(
 						"br",
 						null
 					),
-					"Able to explain the code(cpp: 30%, shader: 20%)",
+					"Homework notes on hackpad(20%)",
 					React.createElement(
 						"br",
 						null
 					),
-					"Contribute to hackpad(20%)",
-					React.createElement(
-						"br",
-						null
-					),
-					"Bonus(10%): ellipse orbit(橢圓軌道)"
 				)
 			),
 			React.createElement(
@@ -187,11 +194,11 @@ var Tutorial=React.createClass({
 				),
 				React.createElement(
 					File,
-					{filename:"Source Code", img: "./art/sourceCode.png" , file:"https://github.com/flyerchris/cghw2"}
+					{filename:"Source Code", img: "./art/sourceCode.png" , file:""}
 				),
 				React.createElement(
 					File,
-					{filename:"Hackpad", img: "./art/hackpad.png", file:"https://hackpad.com/CGHW2-IbLuMM0Otih"}
+					{filename:"HackMD", img: "./art/hackmd.png", file:"https://hackmd.io/MYZgrAhg7AbDYFooFMAsIGuBAnAnwAZgIwIBGIUUY1xkxqQA?both"}
 				),
 				React.createElement(
 					File,
