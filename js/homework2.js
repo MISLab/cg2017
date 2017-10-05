@@ -132,6 +132,19 @@ var Tutorial=React.createClass({
 					", and \"main.cpp\" have already been well commented for you"
 				)
 			),
+            React.createElement(
+				"div",
+				{className:"paragraph clear"},
+				React.createElement(
+					"h2",
+					null,
+					"Tutorial for Building OpenGL Environment"
+				),
+				React.createElement(
+					File,
+					{filename:"Tutorial Video", img:"./art/opengl.png", file:"https://youtu.be/GnuoVEwr338"}
+				)
+			),
 			React.createElement(
 				"div",
 				{className:"paragraph"},
@@ -144,6 +157,11 @@ var Tutorial=React.createClass({
 					"div",
 					{className:"listInfo"},
 					"Submit \"Student ID.zip\" to Moodle.",
+					React.createElement(
+						"br",
+						null
+					),
+                    "In the zip file, there should be your source code and txt file with your HackMD Link.",
 					React.createElement(
 						"br",
 						null
@@ -194,7 +212,7 @@ var Tutorial=React.createClass({
 				),
 				React.createElement(
 					File,
-					{filename:"Source Code", img: "./art/sourceCode.png" , file:""}
+					{filename:"Source Code", img: "./art/sourceCode.png" , file:"https://github.com/tim37021/CGHW2_2017"}
 				),
 				React.createElement(
 					File,

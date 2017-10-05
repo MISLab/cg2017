@@ -1,5 +1,5 @@
-var weekNum=1;
-var courseTitle="Syllabus & Overview of Computer Graphics";
+var weekNum=3;
+var courseTitle="Introduction to Game Development and VR Applications";
 var courseInfo=[
 ];
 var announcement=[
@@ -8,6 +8,7 @@ var title = [
 	/*{id:"final", mainTitle:"Final Presentation", subTopic:"2016.06.28", img:"./art/final.png"},*/
 	{id:"cg", mainTitle:"Computer Graphics ", subTopic:"2017", img:"./art/title.png"},
 	{id:"hw1", mainTitle:"Homework 1", subTopic:"Game Engine Pipeline Concept", img:"./art/ffxv.jpg", href:"./homework1.html"},
+    {id:"hw2", mainTitle:"Homework 2", subTopic:"Basic Rendering System", content:"./solarSystem/index.html", href:"./homework2.html"},
 ]
 
 var titleCount=title.length;
@@ -95,7 +96,7 @@ var Info=React.createClass({
 		for(var a in courseInfo){
 			courseInfoEle.push(React.createElement("div", null, courseInfo[a]));
 		}
-		var announcementEle=["Homework 1 Announced!!  Deadline on 10/2 pm22:00"];
+		var announcementEle=["Homework 2 Announced!!  Deadline on 10/30 pm22:00"];
 		for(var a in announcement){
 			announcementEle.push(React.createElement("div", null, announcement[a]));
 		}
