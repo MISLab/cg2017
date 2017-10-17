@@ -100,11 +100,11 @@ var Tutorial=React.createClass({
 						React.createElement(
 							"p",
 							null,
-							"Second, you have to implement four kind of shading methods by using shader. These four methods are flat, Gouraud, phong, Blinn–Phong shading. Their example are showed below respectively."
+							"Second, you have to implement three kinds of shading algorithms with three interpolation techniques. These three shading algorithms are Phong, Blinn-Phong, Lambert. And the three interpolation techniques are Flat, Gouraud, and Phong."
 						),
 						React.createElement(
 							"div",
-							{className:"exImg",style:{"background-image":"url(./art/hw2_pic3.jpg)"}}
+							{className:"exImg",style:{"background-image":"url(./art/hw2_requests.png)"}}
 						)
 					)
 				),
@@ -128,8 +128,7 @@ var Tutorial=React.createClass({
 						"span",
 						{className:"strong"},
 						"fs.txt"
-					),
-					", and \"main.cpp\" have already been well commented for you"
+					)
 				)
 			),
             React.createElement(
@@ -190,7 +189,7 @@ var Tutorial=React.createClass({
 						"br",
 						null
 					),
-					"4 kinds of shading at Camera Space(45%): Flat(10%) + Gouraud(10%) + Phong(15%) + Blinn-Phong(10%)",
+					"Shading in Camera Space(45%, 5% for each result)",
 					React.createElement(
 						"br",
 						null
