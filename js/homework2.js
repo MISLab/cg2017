@@ -100,7 +100,7 @@ var Tutorial=React.createClass({
 						React.createElement(
 							"p",
 							null,
-							"Second, you have to implement three kinds of shading algorithms with three interpolation techniques. These three shading algorithms are Phong, Blinn-Phong, Lambert. And the three interpolation techniques are Flat, Gouraud, and Phong."
+							"Second, you have to implement three kinds of shading models with three interpolation techniques. These three shading models are Phong, Blinn-Phong, Lambert. And the three interpolation techniques are Flat, Gouraud, and Phong."
 						),
 						React.createElement(
 							"div",
