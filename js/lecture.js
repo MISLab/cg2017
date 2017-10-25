@@ -3,6 +3,7 @@ var lectures = [
     { title: "Week 2: Introduction to Graphics Pipeline", img: "./art/week2.jpg", slideshow: "https://drive.google.com/drive/folders/0B1MjmqsA2djEb3dQT0dxdW1vbjQ?usp=sharing", video: "https://youtu.be/yFvGRQvUTgU" },
     { title: "Week 3: Introduction to Game Development and VR Applications", img: "./art/week3.jpg", slideshow: "https://goo.gl/FXbyfk", video: "https://youtu.be/MM93V1dOldE" },
     { title: "Week 5: Basic_Shading", img: "./art/week5.png", slideshow: "./file/20171017-Basic_Shading.pdf", video: "https://youtu.be/5FW1zOuPIoA" },
+    { title: "Week 6: OpenGL Implementation Tutorials", img: "./art/week6.png", slideshow: "", video: "https://youtu.be/4atnkdxQKAU" },
 ]
 
 var Lecture = React.createClass({
