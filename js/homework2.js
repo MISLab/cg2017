@@ -220,6 +220,10 @@ var Tutorial=React.createClass({
 				React.createElement(
 					File,
 					{filename:"Fun Facts: If the Moon Were Only 1 Pixel", img:"./art/hw2_funFact.png", file:"http://joshworth.com/dev/pixelspace/pixelspace_solarsystem.html"}
+				),
+                React.createElement(
+					File,
+					{filename:"Demo Time Appointment", img:"./art/demo_appointment.png", file:"https://docs.google.com/spreadsheets/d/1vXdILBgB7MKFy3abvirwdDxUXZ7OWW8yDdE-Vaq7L04/edit?usp=sharing"}
 				)
 			)
 		)

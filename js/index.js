@@ -1,8 +1,10 @@
-var weekNum=3;
-var courseTitle="Introduction to Game Development and VR Applications";
+var weekNum=8;
+var courseTitle="Marching Cube, Texture Mapping, PBR, & Disney Principled BRDF";
 var courseInfo=[
 ];
 var announcement=[
+   "Industry Visiting Registration Form",
+    "https://goo.gl/forms/Y8Pg69G1MCicogkK2"
 ];
 var title = [
 	/*{id:"final", mainTitle:"Final Presentation", subTopic:"2016.06.28", img:"./art/final.png"},*/
@@ -96,7 +98,7 @@ var Info=React.createClass({
 		for(var a in courseInfo){
 			courseInfoEle.push(React.createElement("div", null, courseInfo[a]));
 		}
-		var announcementEle=["Homework 2 Announced!!  Deadline on 10/30 pm22:00"];
+		var announcementEle=[];
 		for(var a in announcement){
 			announcementEle.push(React.createElement("div", null, announcement[a]));
 		}
