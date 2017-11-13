@@ -25,7 +25,7 @@ var Tutorial=React.createClass({
 			React.createElement(
 				"h1",
 				null,
-				"Homework 3: Shading"
+				"Homework 3: Marching Cube"
 			),
 			React.createElement(
 				"div",
@@ -38,12 +38,12 @@ var Tutorial=React.createClass({
 				React.createElement(
 					"div",
 					{className:"listInfo"},
-					"Using GLSL",					
+					"3D Reconstruction with Marching cube techique",					
 					React.createElement(
 						"br",
 						null
 					),
-					"Learning shading algorithms"
+					"Computing shader usage"
 				)
 			),
 			React.createElement(
@@ -57,19 +57,27 @@ var Tutorial=React.createClass({
 				React.createElement(
 					"p",
 					null,
-					"In this homework we asked you to implement four kind of shading methods by using shader. These four methods are flat, Gouraud, phong, Blinn–Phong shading. Their example are showed below respectively.",
+					"Marching cubes is a computer graphics algorithm for extracting a polygonal mesh of an isosurface from a three-dimensional discrete scalar field.",
 					React.createElement(
 						"div",
 						{className:"paragraph"},
 						React.createElement(
 							"div",
-							{id: "img1", className:"exImg",style:{"background-image":"url(./art/hw3_pic1.jpg)"}}
+							{id: "img2", className:"exImg",style:{"background-image":"url(./art/hw3_1.jpg)"}}
+						)
+					),
+                    React.createElement(
+						"div",
+						{className:"paragraph"},
+						React.createElement(
+							"div",
+							{id: "img2", className:"exImg",style:{"background-image":"url(./art/hw3_2.png)"}}
 						)
 					),
 					React.createElement(
 						"p",
 						null,
-						"You need to modify the program you finished in HW2 to implement the shading methods. You can simply set a point light locate at the center of the Sun."
+						"In this homework, you should learn how to contruct a mesh with vertices (point cloud). Furthermore, you should implement an editting UI to edit the vertices informations(Adding, Deleting, and Re-position Vertices)."
 					)
 				)
 			),
@@ -97,7 +105,7 @@ var Tutorial=React.createClass({
 					React.createElement(
 						"span",
 						{className:"alert"},
-						"Deadline: 2016/5/2 22:00"
+						"Deadline: 2017/12/4 22:00"
 					)
 				)
 
@@ -113,27 +121,16 @@ var Tutorial=React.createClass({
 				React.createElement(
 					"div",
 					{className:"listInfo"},
-					"Flat shading(20%)",						
+					"Static Marching Cube(80%)",						
 					React.createElement(
 						"br",
 						null
 					),
-					"Gouraud shading(20%)",
+					"Dynamic Editing UI(20%)",
 					React.createElement(
 						"br",
 						null
-					),
-					"Phong shading(20%)",
-					React.createElement(
-						"br",
-						null
-					),
-					"Blinn–Phong shading(20%)",
-					React.createElement(
-						"br",
-						null
-					),
-					"Contribute to hackpad(20%)"
+					)
 				)
 			),
 			React.createElement(
