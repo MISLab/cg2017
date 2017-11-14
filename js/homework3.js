@@ -94,7 +94,7 @@ var Tutorial=React.createClass({
 					),React.createElement(
 						"p",
 						null,
-						"The marching cube look up table is named in \"mctable.cpp\". In the file, the comments show which vertex should be enclosured. //00000001 means the 0th vertex should be enclosured, and //00000110 means both 1st and 2nd vertices are enclosured. The data below the comment helps you to construct the triangles. The first argument of the data shows how many triangles should be drawn. The rest of the arguments are endpoints of a triangle. If the first argument is 1, there will be three endpoints indices, and argument is 2, there will be six endpoints, ... etc. Beware that the endpoint indices order is in clock-wise. The triangle's normal should point out of the enclosured vertex."
+						"The marching cube look up table is named in \"mctable.cpp\". In the file, the comments show which vertex should be enclosured. //00000001 means the 0th vertex should be enclosured, and //00000110 means both 1st and 2nd vertices are enclosured. The data below the comment helps you to construct the triangles. The first argument of the data shows how many triangles should be drawn. The rest of the arguments are endpoints of a triangle. If the first argument is 1, there will be three endpoints indices, and argument is 2, there will be six endpoints, ... etc. Beware that the endpoint index order is in clock-wise. The triangle's normal should point out of the enclosured vertex."
 					),
                     React.createElement(
 						"p",
