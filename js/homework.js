@@ -1,7 +1,7 @@
 var homeworks=[
 	{title:"Homework 1", deadline:"2017/10/2 22:00", img:"./art/homework1.png", file:"./homework1.html"},
     {title:"Homework 2", deadline:"2017/10/30 22:00", img:"./art/homework2.png", file:"./homework2.html"},
-    {title:"Homework 3", deadline:"2017/12/4 22:00", img:"./art/hw3_1.jpg", file:"./homework3.html"}
+    {title:"Homework 3", deadline:"2017/12/4 22:00", img:"./art/homework3.png", file:"./homework3.html"}
 ]
 
 var Homework=React.createClass({
