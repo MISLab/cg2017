@@ -77,24 +77,33 @@ var Tutorial=React.createClass({
 					React.createElement(
 						"p",
 						null,
-						"In this homework, you should learn how to contruct a mesh with vertices (point cloud). Furthermore, you should implement an editting UI to edit the vertices informations(Adding, Deleting, and Re-position Vertices)."
+						"In this homework, you should learn how to contruct a mesh with vertices (point cloud). Furthermore, you should implement an editting UI to edit the vertices informations(Adding, Deleting Vertices)."
 					),
                     React.createElement(
 						"p",
 						null,
-						"We have build a source code contain Mesh loader and a marching cube look up table. Notice that the marching cube vertices index is assigned as figure below."
+						"We have build a source code contain Mesh loader and a marching cube look up table. Notice that the marching cube vertex indices are assigned as shown below."
 					),
-                     React.createElement(
+                    React.createElement(
 						"div",
 						{className:"paragraph"},
 						React.createElement(
 							"div",
 							{id: "img2", className:"exImg",style:{"background-image":"url(./art/marching_cube_index.png)"}}
 						)
-					),React.createElement(
+					),
+                    React.createElement(
 						"p",
 						null,
-						"The marching cube look up table is named in \"mctable.cpp\". In the file, the comments show which vertex should be enclosured. //00000001 means the 0th vertex should be enclosured, and //00000110 means both 1st and 2nd vertices are enclosured. The data below the comment helps you to construct the triangles. The first argument of the data shows how many triangles should be drawn. The rest of the arguments are endpoints of a triangle. If the first argument is 1, there will be three endpoints indices, and argument is 2, there will be six endpoints, ... etc. Beware that the endpoint index order is in clock-wise. The triangle's normal should point out of the enclosured vertex."
+						"The marching cube look up table is named as \"mctable.cpp\". In the file, the comments show which vertex should be enclosured. //00000001 means the 0th vertex should be enclosured, and //00000110 means both 1st and 2nd vertices are enclosured. The data below the comment helps you to construct the triangles. The first argument of the data shows how many triangles should be drawn. The rest of the arguments are endpoints of a triangle. If the first argument is 1, there will be three endpoints indices, and argument is 2, there will be six endpoints, ... etc. Beware that the endpoint index order is in clock-wise. The triangle's normal should point out of the enclosured vertex."
+					),
+                    React.createElement(
+						"div",
+						{className:"paragraph"},
+						React.createElement(
+							"div",
+							{id: "img1", className:"exImg",style:{"background-image":"url(./art/mctable.png)"}}
+						)
 					),
                     React.createElement(
 						"p",
