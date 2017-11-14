@@ -38,12 +38,12 @@ var Tutorial=React.createClass({
 				React.createElement(
 					"div",
 					{className:"listInfo"},
-					"3D Reconstruction with Marching cube techique",					
+					"Marching cube techique",					
 					React.createElement(
 						"br",
 						null
 					),
-					"Computing shader usage"
+					"Computing shader usage (Optional)"
 				)
 			),
 			React.createElement(
@@ -78,7 +78,47 @@ var Tutorial=React.createClass({
 						"p",
 						null,
 						"In this homework, you should learn how to contruct a mesh with vertices (point cloud). Furthermore, you should implement an editting UI to edit the vertices informations(Adding, Deleting, and Re-position Vertices)."
-					)
+					),
+                    React.createElement(
+						"p",
+						null,
+						"We have build a source code contain Mesh loader and a marching cube look up table. Notice that the marching cube vertices index is assigned as figure below."
+					),
+                     React.createElement(
+						"div",
+						{className:"paragraph"},
+						React.createElement(
+							"div",
+							{id: "img2", className:"exImg",style:{"background-image":"url(./art/marching_cube_index.png)"}}
+						)
+					),React.createElement(
+						"p",
+						null,
+						"The marching cube look up table is named in \"mctable.cpp\". In the file, the comments show which vertex should be enclosured. //00000001 means the 0th vertex should be enclosured, and //00000110 means both 1st and 2nd vertices are enclosured. The data below the comment helps you to construct the triangles. The first argument of the data shows how many triangles should be drawn. The rest of the arguments are endpoints of a triangle. If the first argument is 1, there will be three endpoints indices, and argument is 2, there will be six endpoints, ... etc. Beware that the endpoint indices order is in clock-wise. The triangle's normal should point out of the enclosured vertex."
+					),
+                    React.createElement(
+						"p",
+						null,
+						"If your hw2 code can controll camera to move, feel free to finish this homework based on the code you just finished for homework2. Moreover, in our github source code, there is a branch called \"develop_ogl45\". The branch is developed in OpenGL ver 4.5. If you are intrest in the latest usage of OpenGL, please modify the develop_ogl45 yourself and finish the homework based on it."
+					),
+                    React.createElement(
+						"p",
+						null,
+						"The figure shown below and the screen shot is the result that you suppose to fulfill"
+					),
+                    React.createElement(
+                        "div",
+                        {className:"paragraph clear"},
+                        React.createElement(
+                            "h2",
+                            null,
+                            "Marching Cube Result"
+                        ),
+                        React.createElement(
+                            File,
+                            {filename:"marching cube result", img:"./art/hw3_result.png", file:"https://goo.gl/nB19Fc"}
+                        )
+                    ),
 				)
 			),
 			React.createElement(
@@ -126,7 +166,7 @@ var Tutorial=React.createClass({
 						"br",
 						null
 					),
-					"Dynamic Editing UI(20%)",
+					"Dynamically Updating Marching Cube(20%)",
 					React.createElement(
 						"br",
 						null
@@ -171,10 +211,10 @@ var Main = React.createClass({
 			React.createElement(
 				"div",
 				{id:"entryScene"},
-				React.createElement(
+				/*React.createElement(
 					"iframe",
 					{id:"entryIframe", src:"./shading/index.html"}
-				),
+				),*/
 				React.createElement(
 					"div",
 					{id:"entryTitleDiv"},
@@ -186,7 +226,7 @@ var Main = React.createClass({
 					React.createElement(
 						"div",
 						{id:"entrySubTitle"},
-						"Shading"
+						"Marching Cube"
 					)
 				)
 			)
