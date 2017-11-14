@@ -183,7 +183,7 @@ var Tutorial=React.createClass({
 				),
 				React.createElement(
 					File,
-					{filename:"Hackpad", img: "./art/hackpad.png", file:"https://hackpad.com/CGHW3-mg9JmVySCVp"}
+					{filename:"Source Code", img: "./art/sourceCode.png", file:"https://github.com/tim37021/CGHW2_2017"}
 				)
 			)
 		)
