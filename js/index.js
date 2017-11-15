@@ -4,14 +4,17 @@ var courseInfo=[
 ];
 var announcement=[
    "Industry Visiting Registration Form",
-    "https://goo.gl/forms/Y8Pg69G1MCicogkK2"
+    "https://goo.gl/forms/Y8Pg69G1MCicogkK2",
+    "Homework 3 Announced, Deadline on 12/4 22:00"
 ];
 var title = [
 	/*{id:"final", mainTitle:"Final Presentation", subTopic:"2016.06.28", img:"./art/final.png"},*/
 	{id:"cg", mainTitle:"Computer Graphics ", subTopic:"2017", img:"./art/title.png"},
 	{id:"hw1", mainTitle:"Homework 1", subTopic:"Game Engine Pipeline Concept", img:"./art/ffxv.jpg", href:"./homework1.html"},
     {id:"hw2", mainTitle:"Homework 2", subTopic:"Basic Rendering System", content:"./solarSystem/index.html", href:"./homework2.html"},
+    {id:"hwˇ", mainTitle:"Homework 3", subTopic:"Marching Cube", content:"./art/homework3_big.PNG", href:"./homework3.html"},
 ]
+
 
 var titleCount=title.length;
 var currentTitle=0;
