@@ -102,7 +102,7 @@ var Tutorial=React.createClass({
 						{className:"paragraph"},
 						React.createElement(
 							"div",
-							{id: "img1", className:"exImg",style:{"background-image":"url(./art/mctable.png)"}}
+							{id: "img1", className:"exImg",style:{"background-image":"url(./art/mctable.PNG)"}}
 						)
 					),
                     React.createElement(
@@ -192,7 +192,7 @@ var Tutorial=React.createClass({
 				),
 				React.createElement(
 					File,
-					{filename:"Source Code", img: "./art/sourceCode.png", file:"https://github.com/tim37021/CGHW2_2017"}
+					{filename:"Source Code", img: "./art/sourceCode_2.png", file:"https://github.com/tim37021/CGHW2_2017"}
 				)
 			)
 		)
