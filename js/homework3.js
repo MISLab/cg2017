@@ -220,10 +220,10 @@ var Main = React.createClass({
 			React.createElement(
 				"div",
 				{id:"entryScene"},
-				/*React.createElement(
+				React.createElement(
 					"iframe",
-					{id:"entryIframe", src:"./shading/index.html"}
-				),*/
+					{id:"entryIframe", src:"./marchingCube/index.html"}
+				),
 				React.createElement(
 					"div",
 					{id:"entryTitleDiv"},
