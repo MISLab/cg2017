@@ -125,7 +125,7 @@ var Tutorial=React.createClass({
                         ),
                         React.createElement(
                             File,
-                            {filename:"marching cube result", img:"./art/hw3_result.png", file:"https://goo.gl/nB19Fc"}
+                            {filename:"marching cube result", img:"./art/hw3_result.png", file:"https://youtu.be/Dhzw1S9w_40"}
                         )
                     ),
 				)
