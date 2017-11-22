@@ -1,5 +1,5 @@
-var weekNum=8;
-var courseTitle="Marching Cube, Texture Mapping, PBR, & Disney Principled BRDF";
+var weekNum=10;
+var courseTitle="Project Proposal and Marching CUbe & Shading Discussion";
 var courseInfo=[
 ];
 var announcement=[
