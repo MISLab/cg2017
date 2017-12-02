@@ -6,6 +6,7 @@ var lectures = [
     { title: "Week 6: OpenGL Implementation Tutorials", img: "./art/week6.png", video: "https://youtu.be/4atnkdxQKAU" },
     { title: "Week 8: Marching Cube, Texture Mapping, PBR, & Disney Principled BRDF", img: "./art/week8.png", slideshow: "https://goo.gl/8qB3us", video: "https://goo.gl/m8Hb5m" },
     { title: "Week 10: Marching Cube and Shading Discussion", img: "./art/week10.png", video: "https://youtu.be/kRhLhnIeKQU" },
+    { title: "Week11 : Global Illumination and Light Transport Techniques", img: "./art/week11.png", slideshow: "./file/20171202 Global_Illumination.pdf", video: "https://youtu.be/xSiRUaTTIuo" },
 ]
 
 var Lecture = React.createClass({
