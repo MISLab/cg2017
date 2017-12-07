@@ -1,11 +1,11 @@
-var weekNum=10;
-var courseTitle="Project Proposal and Marching CUbe & Shading Discussion";
+var weekNum=12;
+var courseTitle="3D Surface Reconstruction";
 var courseInfo=[
 ];
 var announcement=[
    "Industry Visiting Registration Form",
     "https://goo.gl/forms/Y8Pg69G1MCicogkK2",
-    "Homework 3 Announced, Deadline on 12/4 22:00"
+    "Homework 3 Announced, Deadline on 12/11 22:00"
 ];
 var title = [
 	/*{id:"final", mainTitle:"Final Presentation", subTopic:"2016.06.28", img:"./art/final.png"},*/
