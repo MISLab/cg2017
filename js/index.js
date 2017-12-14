@@ -1,5 +1,5 @@
-var weekNum=12;
-var courseTitle="3D Surface Reconstruction";
+var weekNum=13;
+var courseTitle="Camera Calibration, Structure from Motion & Bundle Adjustment";
 var courseInfo=[
 ];
 var announcement=[

@@ -8,6 +8,7 @@ var lectures = [
     { title: "Week 10: Marching Cube and Shading Discussion", img: "./art/week10.png", video: "https://youtu.be/kRhLhnIeKQU" },
     { title: "Week11 : Global Illumination and Light Transport Techniques", img: "./art/week11.png", slideshow: "./file/20171202 Global_Illumination.pdf", video: "https://youtu.be/xSiRUaTTIuo" },
     { title: "Week12 : 3D Surface Reconstruction", img: "./art/week12.jpeg", slideshow: "./file/20171205-Surface-Reconstruction.pdf", video: "https://youtu.be/KPXuODaiIwY" },
+    { title: "Week13 : Camera Calibration, Structure from Motion & Bundle Adjustment", img: "./art/week13.jpg", slideshow: "./file/20171212-SfM.pdf", video: "https://youtu.be/1dFMhYbbUdY" },
 ]
 
 var Lecture = React.createClass({
