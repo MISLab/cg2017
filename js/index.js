@@ -1,5 +1,5 @@
-var weekNum=13;
-var courseTitle="Camera Calibration, Structure from Motion & Bundle Adjustment";
+var weekNum=15;
+var courseTitle="Computer Animation";
 var courseInfo=[
 ];
 var announcement=[
