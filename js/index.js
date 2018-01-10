@@ -1,5 +1,5 @@
-var weekNum=15;
-var courseTitle="Computer Animation";
+var weekNum=16;
+var courseTitle="Introduction to Stereoscopy";
 var courseInfo=[
 ];
 var announcement=[

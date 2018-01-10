@@ -11,6 +11,8 @@ var lectures = [
     { title: "Week13 : Camera Calibration, Structure from Motion & Bundle Adjustment", img: "./art/week13.jpg", slideshow: "./file/20171212-SfM.pdf", video: "https://youtu.be/1dFMhYbbUdY" },
     { title: "Week14 : Industry Visiting", img: "./art/week14.PNG" },
     { title: "Week15 : Computer Animation", img: "./art/week15.PNG", slideshow: "./file/1226_Computer_Animation.pdf", video: "https://youtu.be/AmtsRPnyxGg" },
+    { title: "Week16 : Introduction to Stereoscopy", img: "./art/week16.PNG", slideshow: "./file/20180109-Stereoscopic-Media.pdf", video: "https://youtu.be/Ds9j6RaOStE" },
+    
 ]
 
 var Lecture = React.createClass({
