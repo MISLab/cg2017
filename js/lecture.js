@@ -12,6 +12,7 @@ var lectures = [
     { title: "Week14 : Industry Visiting", img: "./art/week14.PNG" },
     { title: "Week15 : Computer Animation", img: "./art/week15.PNG", slideshow: "./file/1226_Computer_Animation.pdf", video: "https://youtu.be/AmtsRPnyxGg" },
     { title: "Week16 : Introduction to Stereoscopy", img: "./art/week16.PNG", slideshow: "./file/20180109-Stereoscopic-Media.pdf", video: "https://youtu.be/Ds9j6RaOStE" },
+    { title: "Week17 : Physically Based Animation", img: "./art/week17.jpg", slideshow: "./file/0116_Physically_Based_Animation.pdf", video: "https://youtu.be/6sfpe3ZSdoE" },
     
 ]
 
